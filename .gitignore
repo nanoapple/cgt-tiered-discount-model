@@ -1,0 +1,23 @@
+# R / RStudio
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+*.Rproj.user/
+.Rproj.user/
+
+# Generated data (large; regenerate via run_all.R)
+data/ato_synthetic_family_groups.csv
+
+# Outputs (regenerated each run)
+outputs/*.csv
+outputs/*.pdf
+outputs/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# renv library (if using renv)
+renv/library/
+renv/staging/
