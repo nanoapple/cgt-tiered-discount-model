@@ -1,4 +1,4 @@
-# CGT Tier Calibration (Banded Taper) / CGT Tiered Discount Model
+# CGT Tiered Discount Model
 
 This repository contains a reproducible modelling pipeline for exploring a potential reform to Australia’s Capital Gains Tax (CGT) discount. In Australia, CGT is paid on capital gains realised when certain assets are sold (for example, shares or investment property), and the CGT “discount” refers to the long-standing rule that allows eligible individuals to include only part of a capital gain in taxable income after meeting specific conditions (such as holding the asset for a minimum period).
 
@@ -78,14 +78,6 @@ The pipeline is designed to write standard outputs into `outputs/` (file names m
 - **No real taxpayer, administrative, or identifiable data** is included or required.
 - Large generated artefacts (for example, full synthetic CSV files) are typically not tracked in git history and should be regenerated via `run_all.R`, or provided separately via Releases/Zenodo for a fixed "submission build".
 
----
-
-## Versioning and releases
-
-Recommended release convention:
-
-- **`vX.Y-submission`** — Frozen, citable submission build (fixed parameters and output schema).
-- **`vX.Y.Z-working.N`** — Working builds for iteration (not intended for citation).
 
 ---
 
